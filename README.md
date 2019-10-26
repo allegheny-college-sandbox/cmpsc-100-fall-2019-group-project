@@ -14,6 +14,13 @@ This project has three required steps:
 * Submission of a technical report
 * A buildable, runnable set of (at minimum) three (3) files
 
+Projects will be graded using the following rubric:
+
+|:----Area----:|:-----Percentage weight-----:|:-----Points possible-----:|
+| Code Quality | 50%                         | 50 pts.                   |
+| Documentation| 35%                         | 35 pts.                   |
+| Teamwork     | 15%                         | 15 pts.                   |
+
 ## Helpful reading
 
 To ensure complete preparation for completing this assignment, review all of the chapters covered to this point in the course (up to and including the date of assignment for this project). As we cover new material, you will likely choose to incorporate it into your thinking and development. In some cases, new topics may replace or revise your problem-solving methods. If your group would like additional tutorials or guidance for developing your project using any topic, please schedule office time (as a group) for us to review and discuss application of concepts.
@@ -24,7 +31,7 @@ In addition, there may exist concepts, modules, or third-party classes not cover
 
 ### Part 1: Proposal
 
-* Due: 1 November 2019
+* Due: 4 November 2019
 
 This document, to be completed using the `proposal.md` file in the `writing` directory, should:
 
@@ -120,7 +127,7 @@ functionality, you will, as part of this project, also write tests that assess t
 
 ### Student-designed projects
 
-Students will develop an idea for their own project that focuses on one or more real-world topics in the field of computer science. After receiving the course instructor's approval for your idea, you will complete the project and report on your results.
+Your group will develop an idea for their own project that focuses on one or more real-world topics in the field of computer science. After receiving the course instructor's approval for your idea, you will complete the project and report on your results.
 
 ## Evaluating projects
 
@@ -129,12 +136,26 @@ Group projects will be graded on the basis of:
 * Quality of final code
 * Quality of technical writing up to, and including, final `reflection.md`
 * Team member participation
-   * A track-able metric, as I will survey your `git` commit record on GitHub to see who/how/how often a team member contributes
+   * I will survey your `git` commit record on GitHub to see who/how/how often a team member contributes
 
 ### Quality of code
 
-"Quality" here represents code's legibility, workability, and documentation (including comments within code). Projects which demonstrate success in all three areas will recieve the highest marks here.
+"Quality" here represents code's legibility, workability, and documentation (including comments within code). Projects which demonstrate success in all three areas will recieve the highest marks here. Code which does not meet the following criteria will not achieve high scores in quality:
+
+* Frequent and descriptive single and multi-line comments
+* Absence of checkStyle errors (i.e. passes `gradle build` or `gradle check`)
+* Code has no (or very few) cases where critical failures occur
 
 ### Quality of technical writing
 
 The files contained within the `writing` folder should display clear understanding of progress and product. This means that these files are complete, descriptive, insightful, and accurate. All writing sould give me a window into the challenges and successes that teams experienced as part of the process of conceptualizing and developing projects.
+
+In high-quality technical documentation, I expect to see:
+
+* Clear instructions for running and building projects
+* Frequent use of headings and other Markdown structures to create clarity and structure
+* Objective, focused writing which gives insight into the design and use of the software created
+
+### Participation
+
+In addition to maintaining a watchful eye over GitHub `commit` logs, you will complete end-of-project surveys in which you rate not only yourself, but your teammates, describing the outcome of your project in response to both quantitative and qualitative prompts.
