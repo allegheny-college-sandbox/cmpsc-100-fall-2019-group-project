@@ -33,6 +33,7 @@ In addition, there may exist concepts, modules, or third-party classes not cover
 ### Part 1: Proposal
 
 * Due: 4 November 2019
+* 10% contributed toward `Documentation` grade
 
 This document, to be completed using the `proposal.md` file in the `writing` directory, should:
 
@@ -63,12 +64,14 @@ This section should be a detailed and thorough explanation of how you plan your 
 ### Part 2: Project Update and Demo
 
 * Due: 18 November 2019
+* 5% contributed toward `Documentation` grade
 
 On the date listed above, your group will demonstrate progress during the laboratory session scheduled for that day. In addition, your group should provide a brief, 1 paragaph update with a list of remaining tasks and a plan for completing them in the `update.md` file located in the `writing` directory. This update should be _no fewer_ than 350 words.
 
 ### Part 3: Project Submission
 
 * Due: 6 December 2019
+* 20% contributed toward `Documentation` grade
 
 Your project should be submitted to your group's GitHub repository by the end of the day (11:59 PM) on this date. This should include all of the writing above in addition to responses to questions in the `reflection.md` file, located in the `writing` directory. This writing should:
 
@@ -147,7 +150,7 @@ Group projects will be graded on the basis of:
 * Absence of checkStyle errors (i.e. passes `gradle build` or `gradle check`)
 * Code has no (or very few) cases where critical failures occur
 
-### Quality of technical writing
+### Quality of documentation
 
 The files contained within the `writing` folder should display clear understanding of progress and product. This means that these files are complete, descriptive, insightful, and accurate. All writing sould give me a window into the challenges and successes that teams experienced as part of the process of conceptualizing and developing projects.
 
