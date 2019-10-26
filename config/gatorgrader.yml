@@ -1,0 +1,32 @@
+---
+name: group-project
+break: true
+indent: 4
+---
+ 
+writing:
+    proposal.md:
+        ConfirmFileExists
+        CountFileWords --count 500
+        CountParagraphs --count 4
+        CountMarkdownTags --tag "image" --count 1
+        CountMarkdownTags --tag "list" --count 1
+        CountMarkdownTags --tag "heading" --count 4
+        
+writing:
+    update.md:
+        ConfirmFileExists
+        CountFileWords --count 350
+        CountParagraphs --count 1
+        CountMarkdownTags --tag "list" --count 1
+ 
+writing:
+    reflection.md:
+        ConfirmFileExists
+        CountFileWords --count 750
+        CountMarkdownTags --tag "heading" --count 5
+        CountMarkdownTags --tag "code_block" --count 1
+        
+CountCommits --count 10
+ExecuteCommand --command "gradle build"
+ExecuteCommand --command "gradle -q --console plain run"

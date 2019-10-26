@@ -17,7 +17,7 @@ This project has three required steps:
 Projects will be graded using the following rubric:
 
 |     Area     |Percentage weight|Points possible|
-|:------------:|:---------------:|:-------------:|
+|:-------------|:---------------:|:-------------:|
 | Code Quality | 50%             | 50 pts.       |
 | Documentation| 35%             | 35 pts.       |
 | Teamwork     | 15%             | 15 pts.       |
