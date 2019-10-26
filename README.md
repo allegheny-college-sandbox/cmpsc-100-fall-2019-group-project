@@ -8,9 +8,10 @@
 
 This semester, in the course of learning fundamental computational concepts using Java, you've been using structured, semi-guided exercises to explore topics. This group project invites you to explore and expand your knowledge in greater detail by applying your knowledge to a discipline-specific problem chosen from a wide variety of subject areas, listed below. Because this is a group project, you will also explore using GitHub and the git version control system (VCS) as a collaborative tool.
 
-This project has three required steps:
+This project has four required steps:
 
 * Submission of a proposal
+* In-class demonstration
 * Submission of a technical report
 * A buildable, runnable set of (at minimum) three (3) files
 
