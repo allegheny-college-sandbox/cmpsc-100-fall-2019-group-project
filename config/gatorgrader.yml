@@ -8,7 +8,7 @@ writing:
     proposal.md:
         ConfirmFileExists
         CountFileWords --count 500
-        CountParagraphs --count 4
+        CountFileParagraphs --count 4
         CountMarkdownTags --tag "image" --count 1
         CountMarkdownTags --tag "list" --count 1
         CountMarkdownTags --tag "heading" --count 4
