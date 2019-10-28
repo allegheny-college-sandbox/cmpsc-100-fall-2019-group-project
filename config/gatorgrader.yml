@@ -17,7 +17,7 @@ writing:
     update.md:
         ConfirmFileExists
         CountFileWords --count 350
-        CountParagraphs --count 1
+        CountFileParagraphs --count 1
         CountMarkdownTags --tag "list" --count 1
  
 writing:
